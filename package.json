@@ -1,0 +1,33 @@
+{
+  "name": "conversor-temperaturas",
+  "version": "1.0.0",
+  "description": "Aplicación web y CLI para convertir temperaturas entre Celsius y Fahrenheit",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cli": "node app.js",
+    "dev": "nodemon --watch . --ext js,html,css --ignore node_modules --exec \"node server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "temperatura",
+    "conversión",
+    "celsius",
+    "fahrenheit",
+    "web",
+    "cli",
+    "express",
+    "yargs",
+    "chalk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.21.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
